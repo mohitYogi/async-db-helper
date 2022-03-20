@@ -1,10 +1,10 @@
 <?php
 
-namespace MohitYogi\AsyncDBLogger\Traits;
+namespace MohitYogi\AsyncDBHelper\Traits;
 
-use MohitYogi\AsyncDBLogger\Adapters\RedisAdapter;
+use MohitYogi\AsyncDBHelper\Adapters\RedisAdapter;
 
-trait AsyncDBLoggingTrait
+trait AsyncDBHelpingTrait
 {
     /**
      * Returns the eloquent object with hash_key 
