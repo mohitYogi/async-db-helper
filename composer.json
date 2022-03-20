@@ -1,0 +1,28 @@
+{
+    "name": "mohit-yogi/async-db-helper",
+    "description": "Save the model data to redis & then move them to DB later",
+    "type": "library",
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "Mohit Yogi",
+            "email": "mohity86@gmail.com"
+        }
+    ],
+    "minimum-stability": "dev",
+    "require": {
+        "predis/predis": "^1.1"
+    },
+    "autoload": {
+        "psr-4": {
+            "MohitYogi\\AsyncDBHelper\\": "src/"
+        }
+    },
+    "extra": {
+        "laravel": {
+            "providers": [
+                "MohitYogi\\AsyncDBHelper\\AsyncDBHelperServiceProvider"
+            ]
+        }
+    }
+}
